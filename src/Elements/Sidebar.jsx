@@ -12,7 +12,7 @@ const Sidebar = () => {
       ariaLabel: "Home",
       rotation: -8,
       hoverStyles: { bgColor: "#3b82f6", textColor: "#ffffff" },
-      onClick: () => navigate("/home"), 
+      onClick: () => navigate("/"), 
     },
     {
       label: "+Add Project",
@@ -36,7 +36,7 @@ const Sidebar = () => {
       logo={
         <button
           style={{ backgroundColor: "white", cursor: "pointer" }}
-          onClick={() => navigate("/home")}
+          onClick={() => navigate("/")}
         >
           <span
             style={{

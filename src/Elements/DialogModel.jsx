@@ -52,7 +52,7 @@ const DialogModel = ({ datalog }) => {
 
   toast.success("Project added successfully!");
 
-  setTimeout(() => navigate("/home"), 100);
+  setTimeout(() => navigate("/"), 100);
 };
 
   return (

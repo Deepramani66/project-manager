@@ -53,7 +53,7 @@ const handleDeleteProject = (projectId) => {
       <div className="pt-37.5 flex justify-center">
         <Routes>
           <Route
-            path="/home"
+            path="/"
             element={
               projectary.length > 0 ? (
                 <ProjectCard
