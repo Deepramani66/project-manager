@@ -62,7 +62,7 @@ function ProjectDetail({ open, onClose, project, projectary, setProjectary, onDe
 
   return (
     <Dialog open={open} onOpenChange={(isOpen) => !isOpen && onClose()}>
-      <DialogContent className="relative w-full sm:max-w-lg p-4 sm:p-6 md:p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+      <DialogContent className="w-full sm:max-w-lg p-4 sm:p-6 md:p-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
         
         {/* Header with Title and Delete Button */}
         <div className="flex items-center justify-between mb-4">
